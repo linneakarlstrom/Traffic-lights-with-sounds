@@ -14,7 +14,7 @@ void setup() {
 void loop() {
 // put your main code here, to run repeatedly:
   digitalWrite(13, HIGH); //röd lampa lyser
-  tone(buzzer, 50); // ljudet för röd lampa sätts på
+  tone(buzzer, 40); // ljudet för röd lampa sätts på
   delay(2500);
 
   digitalWrite(3, HIGH); // gul lampa lyser
@@ -28,7 +28,7 @@ void loop() {
 
   digitalWrite(7, HIGH); //grön lampa lyser
   noTone(buzzer);
-  tone(buzzer, 90); //ljudet för grön lampa sätts på
+  tone(buzzer, 100); //ljudet för grön lampa sätts på
   delay(2500);
   digitalWrite(7, LOW); // grön lampa släcks
   noTone(buzzer); // ljudet slutar
