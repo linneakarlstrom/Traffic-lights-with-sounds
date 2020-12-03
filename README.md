@@ -5,6 +5,8 @@ With the help of an arduino, data signals transfer from the computer to the LEDs
 ## Circuit diagram
 
 
+
+
 ## Equipment
 
 
